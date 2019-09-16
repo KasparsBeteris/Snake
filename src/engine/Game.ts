@@ -86,8 +86,8 @@ export class Game {
   }
 
   die() {
-    alert("Game Over. Your score is " + this.score);
     this.stop();
+    alert("Game Over. Your score is " + this.score);
   }
 
   isOutside(cell: Cell) {
